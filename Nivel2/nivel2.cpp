@@ -45,6 +45,9 @@ int y = ++x; Primero se incrementa luego se asigna.
 
 
 - Conversiones de datos
+
+double resultado = static_cast<double>(a) / b;. 
+
 Convierte los datos por un momento a double, pero
 las variables siempre serán tipo int.
 Ejemplo:
@@ -52,12 +55,10 @@ Ejemplo:
 int a = 5;
 int b = 2;
 
-double resultado = static_cast<double>(a) / b;.
 
--
+double resultado = static_cast<double>(5) / 2;.
 
-
-
+= 2.5
 
 
 */
