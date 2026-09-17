@@ -56,6 +56,28 @@ int sumar(int a, int b)
     return a + b;
 }
 
+- Función que devuelve bool.
+Ejemplo: 
+
+bool esPar(int numero)
+{
+    return numero % 2 == 0;
+}
+
+esPar(8);
+Entonces evalua en la función bool.
+Después evalua si 0==0.
+
+Entonces: 
+
+if (esPar(8))
+{
+    std::cout << "Es par";
+}.
+
+-
+
+
 
 
 
